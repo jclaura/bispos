@@ -11,9 +11,16 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+    {{--<link rel="stylesheet" href="/css/admin_custom.css">--}}
 @stop
 
 @section('js')
-    <script> console.log('Hi!'); </script>
+    <script> console.log('Hi!'); </script>   
+    <script> 
+        Swal.fire(
+            'The Internet?',
+            'That thing is still around?',
+            'question'
+        )
+    </script>   
 @stop
